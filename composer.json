@@ -1,0 +1,42 @@
+{
+	"name": "tomzx/mathematics",
+	"description": "Mathematics tools for PHP",
+	"type": "library",
+	"keywords": [
+		"mathematics",
+		"math"
+	],
+	"homepage": "https://github.com/tomzx/mathematics",
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Tom Rochette",
+			"email": "tom@tomrochette.com",
+			"homepage": "http://www.tomrochette.com"
+		}
+	],
+	"support": {
+		"issues": "https://github.com/tomzx/mathematics/issues"
+	},
+	"require": {
+		"php": ">=5.4.0"
+	},
+	"require-dev": {
+		"phpunit/phpunit": "~4"
+	},
+	"autoload": {
+		"psr-4": {
+			"tomzx\\Mathematics\\": "src/tomzx/Mathematics"
+		}
+	},
+	"autoload-dev": {
+		"psr-4": {
+			"tomzx\\Mathematics\\Test\\": "tests/tomzx/Mathematics"
+		}
+	},
+	"extra": {
+		"branch-alias": {
+			"dev-master": "0.1-dev"
+		}
+	}
+}
